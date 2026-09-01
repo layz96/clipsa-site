@@ -1,0 +1,276 @@
+<!doctype html>
+<!-- Плейсхолдеры: {DEVELOPER_NAME} — имя/юрлицо разработчика, {SUPPORT_EMAIL} — адрес поддержки.
+     Публикуется на https://clipsa.app/ru.html; английская версия — index.html.
+     Кнопка оплаты — единственный элемент с id="subscribe-cta": чтобы подключить реальную оплату
+     (External Purchase Link RU / ЮKassa, см. docs/PRICING.md), достаточно заменить её href
+     на платёжную ссылку — блок-заглушка #subscribe тогда просто перестанет открываться. -->
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Clipsa — ролик из того, что уже снято</title>
+<meta name="description" content="Clipsa собирает вертикальный ролик из видео, которые уже лежат у вас в «Фото». Выберите шаблон — кадры подберутся сами. Всё считается на iPhone, видео никуда не отправляются.">
+<link rel="icon" href="img/icon-256.png" sizes="256x256">
+<link rel="apple-touch-icon" href="img/icon-256.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Clipsa">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:title" content="Clipsa — ролик из того, что уже снято">
+<meta property="og:description" content="Выберите шаблон — приложение найдёт в вашей галерее подходящие кадры и соберёт вертикальный ролик. Всё считается на телефоне.">
+<meta property="og:url" content="https://clipsa.app/ru.html">
+<meta property="og:image" content="https://clipsa.app/img/icon-512.png">
+<link rel="canonical" href="https://clipsa.app/ru.html">
+<link rel="alternate" hreflang="en" href="https://clipsa.app/index.html">
+<link rel="alternate" hreflang="ru" href="https://clipsa.app/ru.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=JetBrains+Mono:wght@500&family=Unbounded:wght@600&display=swap">
+<link rel="stylesheet" href="landing.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="shell top__row">
+    <a class="brand" href="ru.html">
+      <img src="img/icon-256.png" alt="" width="30" height="30">
+      <b>Clipsa</b>
+    </a>
+    <nav class="top__links">
+      <a href="#how">Как это работает</a>
+      <a href="#subscription">Подписка</a>
+      <a class="top__lang" href="index.html" lang="en" hreflang="en">English</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="shell hero__grid">
+      <div>
+        <p class="eyebrow">iPhone · iOS 17 и новее · версия 1.0.0</p>
+        <h1 class="hero__title">Ролик из того,<br>что <span class="grad">уже снято</span></h1>
+        <p class="lead hero__lead">Выберите шаблон — Clipsa найдёт в вашей галерее подходящие
+          кадры и соберёт вертикальный ролик. Всё считается на телефоне, видео никуда
+          не отправляются.</p>
+        <div class="cta-row">
+          <span class="badge-soon"><span class="dot"></span>Скоро в App Store</span>
+          <a class="link-arrow" href="#subscription">Про подписку →</a>
+        </div>
+        <p class="note hero__free">Версия 1.0 бесплатная: без подписки, без покупок внутри
+          приложения и без рекламы.</p>
+      </div>
+      <div class="hero__shot">
+        <img src="img/hero-editor.jpg" width="560" height="1214"
+             alt="Редактор Clipsa: предпросмотр вертикального ролика, полоса сцен и подписи шаблона">
+      </div>
+    </div>
+  </section>
+
+  <section class="thesis">
+    <div class="shell thesis__inner">
+      <p>Приложение ничего не дорисовывает и не генерирует: оно
+        <span class="em">выбирает и режет то, что вы уже сняли</span>.</p>
+    </div>
+  </section>
+
+  <section class="strip">
+    <div class="shell">
+      <div class="strip__frame">
+        <img src="img/filmstrip.jpg" width="880" height="232"
+             alt="Полоса сцен в редакторе: пять кадров из медиатеки с номерами сцен и длительностями">
+      </div>
+      <div class="strip__cap">
+        <p class="eyebrow">Полоса сцен</p>
+        <p class="note">Каждая сцена шаблона — отдельный кадр из вашей медиатеки. Любой можно поменять.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="how">
+    <div class="shell">
+      <div class="section__head">
+        <p class="eyebrow eyebrow--accent">Как это работает</p>
+        <h2>Три шага до готового ролика</h2>
+      </div>
+      <div class="steps">
+        <article class="step">
+          <span class="chip">Лента</span>
+          <h3>Выберите шаблон</h3>
+          <p>В ленте видно, как ролик выглядит целиком: сцены, их длительности и подписи.</p>
+        </article>
+        <article class="step">
+          <span class="chip">Подбор</span>
+          <h3>Кадры находятся сами</h3>
+          <p>Приложение просматривает ваши видео прямо на iPhone и подбирает кадр под каждую
+            сцену: что на кадре, какой план, где внутри клипа нужный момент.</p>
+        </article>
+        <article class="step">
+          <span class="chip">Экспорт</span>
+          <h3>Сохраните в «Фото»</h3>
+          <p>Вертикальное видео 1080×1920, 30 кадров/с, со звуком и подписями шаблона.
+            Или отправьте куда угодно через «Поделиться».</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell">
+      <div class="section__head">
+        <p class="eyebrow eyebrow--accent">Экраны</p>
+        <h2>Как это выглядит</h2>
+      </div>
+      <div class="shots">
+        <figure class="shot">
+          <img src="img/ru/01.jpg" width="520" height="1127" loading="lazy"
+               alt="Экран онбординга: приложение один раз изучает медиатеку">
+          <figcaption>Один проход по медиатеке — дальше кадры для любого шаблона подбираются за секунды.</figcaption>
+        </figure>
+        <figure class="shot">
+          <img src="img/ru/04.jpg" width="520" height="1127" loading="lazy"
+               alt="Лист замены сцены: поиск кадра по описанию и список кандидатов">
+          <figcaption>Поиск словами по описанию сцены: кандидаты отсортированы по тому, что в кадре.</figcaption>
+        </figure>
+        <figure class="shot">
+          <img src="img/ru/05.jpg" width="520" height="1127" loading="lazy"
+               alt="Экран «Ролик готов» с сохранением в «Фото»">
+          <figcaption>Сохранить в «Фото» или отправить через «Поделиться» в любое приложение.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell">
+      <div class="section__head">
+        <p class="eyebrow eyebrow--accent">Правки</p>
+        <h2>Что можно поправить</h2>
+        <p class="body">Автоподбор — это первая версия ролика, а не приговор.</p>
+      </div>
+      <div class="cards">
+        <article class="card2">
+          <h3>Заменить кадр</h3>
+          <p>В любой сцене — вручную или поиском по описанию: «человек в зале», «кофе», «море».</p>
+        </article>
+        <article class="card2">
+          <h3>Выбрать момент внутри клипа</h3>
+          <p>Полоса кадров всего исходника: окно нужной длины перетаскивается туда, где действие.</p>
+        </article>
+        <article class="card2">
+          <h3>Изменить подпись</h3>
+          <p>Текст из шаблона переписывается своими словами — шрифт и положение остаются
+            как в шаблоне.</p>
+        </article>
+        <article class="card2">
+          <h3>Оставить сцену пустой</h3>
+          <p>Или подставить кадр из самого шаблона, если своего подходящего не нашлось.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell">
+      <div class="privacy">
+        <p class="eyebrow eyebrow--accent">Приватность</p>
+        <h2>Всё остаётся на устройстве</h2>
+        <p class="body">Анализ видео, подбор сцен и рендер выполняются только на вашем iPhone.
+          Видео, кадры, результаты анализа и идентификаторы «Фото» не отправляются на сервер —
+          сервера у приложения попросту нет. Аккаунт не нужен, регистрации нет.</p>
+        <p class="note"><a href="privacy-ru.html">Политика конфиденциальности</a></p>
+        <ul class="specs">
+          <li>1080×1920</li>
+          <li>30 кадр/с</li>
+          <li>iOS 17+</li>
+          <li>iPhone</li>
+          <li>без сервера</li>
+          <li>без аккаунта</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell">
+      <div class="section__head">
+        <p class="eyebrow eyebrow--accent">Честно</p>
+        <h2>Что стоит знать заранее</h2>
+      </div>
+      <div class="cards">
+        <article class="card2">
+          <h3>Первый запуск не мгновенный</h3>
+          <p>Приложение один раз просматривает несколько сотен последних видео — около полутора
+            минут. Остальную библиотеку дочитывает фоном и делает паузы, если телефон нагрелся.</p>
+        </article>
+        <article class="card2">
+          <h3>Видео из iCloud</h3>
+          <p>Облачные видео участвуют в подборе по превью. Для экспорта оригинал скачивается
+            по кнопке — приложение показывает, сколько осталось.</p>
+        </article>
+        <article class="card2">
+          <h3>Нужен доступ к «Фото»</h3>
+          <p>Без него ролик собирать не из чего. Подойдёт и режим «Выбранные фото» — тогда
+            приложение работает только с отмеченными видео.</p>
+        </article>
+        <article class="card2">
+          <h3>Шаблоны в духе любимых рилсов</h3>
+          <p>Готовые сценарии со сценами, длительностями и подписями. Материал в них —
+            всегда ваш.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="subscription">
+    <div class="shell">
+      <div class="pay">
+        <p class="eyebrow eyebrow--accent">Подписка</p>
+        <h2>Сейчас Clipsa бесплатна</h2>
+        <p class="body">Версия 1.0 — без подписки, без покупок внутри приложения и без рекламы.
+          Платные тарифы появятся отдельным обновлением.</p>
+        <a class="btn btn--primary" id="subscribe-cta" href="#subscribe">Оформить подписку</a>
+        <p class="note">Оплата пока не подключена — кнопка покажет пояснение.
+          Данные здесь не собираются.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="shell foot__row">
+    <p class="note">© 2026 {DEVELOPER_NAME} · Clipsa AI: авто-монтаж роликов · 1.0.0</p>
+    <p class="foot__links">
+      <a href="privacy-ru.html">Политика конфиденциальности</a>
+      <a href="support-ru.html">Поддержка</a>
+      <a href="mailto:{SUPPORT_EMAIL}">{SUPPORT_EMAIL}</a>
+      <a href="index.html" lang="en" hreflang="en">English</a>
+    </p>
+  </div>
+</footer>
+
+<!-- Заглушка оплаты. Открывается только по #subscribe, без скриптов и без полей ввода. -->
+<div class="modal" id="subscribe" role="dialog" aria-modal="true" aria-labelledby="subscribe-title">
+  <a class="modal__scrim" href="#subscribe-cta" aria-label="Закрыть"></a>
+  <div class="modal__box">
+    <p class="eyebrow eyebrow--accent">Подписка</p>
+    <h2 id="subscribe-title">Оплата скоро появится</h2>
+    <p>Приложение сейчас бесплатно: без подписки, без покупок внутри приложения и без рекламы.
+      Когда оплата заработает, эта кнопка приведёт на страницу оплаты.</p>
+    <p>Вводить здесь ничего не нужно — никакие данные на этой странице не собираются.</p>
+    <a class="btn btn--ghost" href="#subscribe-cta">Понятно</a>
+  </div>
+</div>
+
+<script>
+  // Единственный скрипт страницы, локальный: закрыть заглушку клавишей Esc.
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && location.hash === '#subscribe') {
+      location.replace('#subscribe-cta');
+    }
+  });
+</script>
+
+</body>
+</html>

@@ -1,24 +1,250 @@
 <!doctype html>
+<!-- Плейсхолдеры: {DEVELOPER_NAME} — имя/юрлицо разработчика, {SUPPORT_EMAIL} — адрес поддержки.
+     Публикуется на https://clipsa.app/ (основная, английская версия); русская — ru.html.
+     Кнопки оплаты на английской версии нет намеренно — только заглушка «Coming soon to the App Store». -->
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Clipsa</title>
-<link rel="stylesheet" href="style.css">
+<title>Clipsa — a reel from footage you already shot</title>
+<meta name="description" content="Clipsa turns the videos already sitting in your Photos library into a short vertical reel. Pick a template and the shots find themselves. Everything runs on your iPhone — nothing is uploaded.">
+<link rel="icon" href="img/icon-256.png" sizes="256x256">
+<link rel="apple-touch-icon" href="img/icon-256.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Clipsa">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="Clipsa — a reel from footage you already shot">
+<meta property="og:description" content="Pick a template and the app finds the right shots in your own gallery, then cuts a vertical video. Everything runs on your iPhone.">
+<meta property="og:url" content="https://clipsa.app/">
+<meta property="og:image" content="https://clipsa.app/img/icon-512.png">
+<link rel="canonical" href="https://clipsa.app/">
+<link rel="alternate" hreflang="en" href="https://clipsa.app/index.html">
+<link rel="alternate" hreflang="ru" href="https://clipsa.app/ru.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600&family=JetBrains+Mono:wght@500&family=Unbounded:wght@600&display=swap">
+<link rel="stylesheet" href="landing.css">
 </head>
 <body>
-<div class="wrap">
-  <div class="card">
-    <h1>Clipsa</h1>
-    <p>Auto reel maker for iOS: pick a template — Clipsa cuts a vertical video from your own footage, entirely on device.</p>
-    <p class="muted">The app analyses your videos locally and never uploads them anywhere.</p>
-    <p>
-      <a href="privacy.html">Privacy Policy</a> · <a href="support.html">Support</a>
-    </p>
-    <p class="lang">
-      Русский: <a href="privacy-ru.html">Политика конфиденциальности</a> · <a href="support-ru.html">Поддержка</a>
+
+<header class="top">
+  <div class="shell top__row">
+    <a class="brand" href="index.html">
+      <img src="img/icon-256.png" alt="" width="30" height="30">
+      <b>Clipsa</b>
+    </a>
+    <nav class="top__links">
+      <a href="#how">How it works</a>
+      <a href="#subscription">Pricing</a>
+      <a class="top__lang" href="ru.html" lang="ru" hreflang="ru">Русский</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="shell hero__grid">
+      <div>
+        <p class="eyebrow">iPhone · iOS 17 and later · version 1.0.0</p>
+        <h1 class="hero__title">A reel from what<br>you <span class="grad">already shot</span></h1>
+        <p class="lead hero__lead">Pick a template and Clipsa finds the right shots in your own
+          gallery, then cuts a vertical video. Everything runs on your iPhone — nothing is
+          uploaded.</p>
+        <div class="cta-row">
+          <span class="badge-soon"><span class="dot"></span>Coming soon to the App Store</span>
+          <a class="link-arrow" href="#subscription">What it costs →</a>
+        </div>
+        <p class="note hero__free">Version 1.0 is free: no subscription, no in-app purchases,
+          no ads.</p>
+      </div>
+      <div class="hero__shot">
+        <img src="img/hero-editor.jpg" width="560" height="1214"
+             alt="The Clipsa editor: a vertical reel preview, the scene strip and the template captions">
+      </div>
+    </div>
+  </section>
+
+  <section class="thesis">
+    <div class="shell thesis__inner">
+      <p>Nothing is generated or made up: the app
+        <span class="em">picks and cuts the footage you have already shot</span>.</p>
+    </div>
+  </section>
+
+  <section class="strip">
+    <div class="shell">
+      <div class="strip__frame">
+        <img src="img/filmstrip.jpg" width="880" height="232"
+             alt="The scene strip in the editor: five shots from the library with scene numbers and durations">
+      </div>
+      <div class="strip__cap">
+        <p class="eyebrow">Scene strip</p>
+        <p class="note">Every scene of a template is one shot from your own library. Any of them can be swapped.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="how">
+    <div class="shell">
+      <div class="section__head">
+        <p class="eyebrow eyebrow--accent">How it works</p>
+        <h2>Three steps to a finished reel</h2>
+      </div>
+      <div class="steps">
+        <article class="step">
+          <span class="chip">Feed</span>
+          <h3>Pick a template</h3>
+          <p>The feed shows the whole reel before you start: its scenes, their lengths and captions.</p>
+        </article>
+        <article class="step">
+          <span class="chip">Match</span>
+          <h3>The shots find themselves</h3>
+          <p>The app goes through your videos right on the iPhone and picks a shot for every scene:
+            what is in the frame, how wide the shot is, and where the right moment sits inside the clip.</p>
+        </article>
+        <article class="step">
+          <span class="chip">Export</span>
+          <h3>Save it to Photos</h3>
+          <p>A vertical 1080×1920 video at 30 fps, with the sound and captions of the template.
+            Or send it anywhere through the share sheet.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell">
+      <div class="section__head">
+        <p class="eyebrow eyebrow--accent">Screens</p>
+        <h2>What it looks like</h2>
+      </div>
+      <div class="shots">
+        <figure class="shot">
+          <img src="img/en/01.jpg" width="520" height="1127" loading="lazy"
+               alt="Onboarding screen: the app reads the library once">
+          <figcaption>One pass over the library — after that, shots for any template take seconds.</figcaption>
+        </figure>
+        <figure class="shot">
+          <img src="img/en/04.jpg" width="520" height="1127" loading="lazy"
+               alt="The replace-scene sheet: searching for a shot by description with ranked candidates">
+          <figcaption>Search in plain words: candidates are ranked by what is actually in the frame.</figcaption>
+        </figure>
+        <figure class="shot">
+          <img src="img/en/05.jpg" width="520" height="1127" loading="lazy"
+               alt="The finished-reel screen, ready to save to Photos">
+          <figcaption>Save it to Photos, or send it anywhere through the share sheet.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell">
+      <div class="section__head">
+        <p class="eyebrow eyebrow--accent">Edits</p>
+        <h2>What you can change</h2>
+        <p class="body">The automatic match is a first cut, not a verdict.</p>
+      </div>
+      <div class="cards">
+        <article class="card2">
+          <h3>Swap a shot</h3>
+          <p>In any scene — by hand or by searching in plain words: “person in a gym”, “coffee”, “sea”.</p>
+        </article>
+        <article class="card2">
+          <h3>Choose the moment inside a clip</h3>
+          <p>The whole source is laid out frame by frame — drag the window to where the action is.</p>
+        </article>
+        <article class="card2">
+          <h3>Rewrite the caption</h3>
+          <p>Put the template’s text in your own words — the font and the position stay put.</p>
+        </article>
+        <article class="card2">
+          <h3>Leave a scene blank</h3>
+          <p>Or fall back to the template’s own footage when nothing of yours fits.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell">
+      <div class="privacy">
+        <p class="eyebrow eyebrow--accent">Privacy</p>
+        <h2>Everything stays on the device</h2>
+        <p class="body">Analysis, matching and rendering all happen on your iPhone. Your videos,
+          frames, analysis results and Photos identifiers are never sent to a server — there is
+          no server. No account, no sign-up.</p>
+        <p class="note"><a href="privacy.html">Privacy policy</a></p>
+        <ul class="specs">
+          <li>1080×1920</li>
+          <li>30 fps</li>
+          <li>iOS 17+</li>
+          <li>iPhone</li>
+          <li>no server</li>
+          <li>no account</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="shell">
+      <div class="section__head">
+        <p class="eyebrow eyebrow--accent">Straight talk</p>
+        <h2>Worth knowing up front</h2>
+      </div>
+      <div class="cards">
+        <article class="card2">
+          <h3>The first launch takes a while</h3>
+          <p>The app reads a few hundred of your most recent videos once — about a minute and
+            a half. It keeps working through the rest in the background and pauses when the
+            phone gets warm.</p>
+        </article>
+        <article class="card2">
+          <h3>Videos in iCloud</h3>
+          <p>Cloud videos take part in matching through their previews. For export the original
+            is downloaded on a tap, with the remaining size shown.</p>
+        </article>
+        <article class="card2">
+          <h3>Access to Photos is required</h3>
+          <p>Without it there is nothing to build a reel from. Limited (“Selected Photos”) access
+            works too — the app then uses only the videos you marked.</p>
+        </article>
+        <article class="card2">
+          <h3>The interface is in Russian</h3>
+          <p>Version 1.0 ships with a Russian interface; an English version is on the way. The
+            <a href="support.html">support page</a> walks through every screen in English.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="subscription">
+    <div class="shell">
+      <div class="pay">
+        <p class="eyebrow eyebrow--accent">Pricing</p>
+        <h2>Clipsa is free right now</h2>
+        <p class="body">Version 1.0 comes with no subscription, no in-app purchases and no ads.
+          Paid plans, if they arrive, will come in a later update.</p>
+        <a class="link-arrow" href="support.html">Questions? The support page →</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="shell foot__row">
+    <p class="note">© 2026 {DEVELOPER_NAME} · Clipsa AI: Auto reel maker · 1.0.0</p>
+    <p class="foot__links">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="support.html">Support</a>
+      <a href="mailto:{SUPPORT_EMAIL}">{SUPPORT_EMAIL}</a>
+      <a href="ru.html" lang="ru" hreflang="ru">Русский</a>
     </p>
   </div>
-</div>
+</footer>
+
 </body>
 </html>
