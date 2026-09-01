@@ -1,0 +1,90 @@
+<!doctype html>
+<!-- Плейсхолдеры: {DEVELOPER_NAME} — имя/юрлицо разработчика, {SUPPORT_EMAIL} — адрес поддержки.
+     Публикуется на clipsa.app: https://clipsa.app/privacy.html (EN),
+     https://clipsa.app/privacy-ru.html (RU). Все пять файлов должны лежать рядом —
+     ссылки между страницами относительные. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Clipsa</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<header>
+  <p class="lang"><a href="privacy-ru.html">Русская версия</a></p>
+  <h1>Privacy Policy</h1>
+  <p class="muted">Clipsa for iPhone · last updated 29 August 2026</p>
+</header>
+
+<div class="card">
+  <strong>In short:</strong> the app collects no data and sends nothing anywhere. There is no
+  account and no server. Your videos, the frames taken from them and everything the app works
+  out about them never leave your iPhone.
+</div>
+
+<h2>1. Who we are</h2>
+<p>Clipsa is developed by {DEVELOPER_NAME}. Contact: <a href="mailto:{SUPPORT_EMAIL}">{SUPPORT_EMAIL}</a>.</p>
+
+<h2>2. What data we collect</h2>
+<p><strong>None.</strong> The app asks for no registration, creates no account, contains no
+advertising or analytics SDKs and sends nothing to our servers or anyone else's. There are no
+in-app purchases and no subscriptions.</p>
+
+<h2>3. Access to your photo library</h2>
+<p>To build a reel the app needs access to the videos in Photos (the
+<em>NSPhotoLibraryUsageDescription</em> permission). That access is used only to:</p>
+<ul>
+  <li>read your videos and analyse them <strong>on the device itself</strong> (Apple Vision and a
+      CLIP model bundled with the app);</li>
+  <li>match suitable fragments to the scenes of the template you picked;</li>
+  <li>save the finished reel back to Photos when you ask for it
+      (the <em>NSPhotoLibraryAddUsageDescription</em> permission).</li>
+</ul>
+<p>Limited access (“Selected Photos”) works too: the app then sees only what you have marked.
+You can revoke access at any time in Settings → Privacy &amp; Security → Photos.</p>
+
+<h2>4. What is stored on your device</h2>
+<p>The results of the analysis — tags, numeric vectors (embeddings), thumbnails, project drafts
+and exported videos — live in the app's sandbox on your iPhone. They are never synchronised or
+transmitted. Everything derived can be erased inside the app:
+<em>Settings → “Удалить локальный индекс”</em> (Delete local index). Deleting the app removes all
+of it as well. Your original videos in Photos are not touched either way.</p>
+
+<h2>5. Videos in iCloud</h2>
+<p>If your videos are stored in iCloud Photos, the app asks iOS through the system API to download
+the original to the device — and only when you tap “Скачать” (Download). That exchange happens
+between your device and your own iCloud; the developer takes no part in it and has no access to
+your iCloud.</p>
+
+<h2>6. Analytics and diagnostics</h2>
+<p>The app keeps local counters (how many scenes were filled, how long a render took, an error
+code). They are written to the device's own system log and are sent nowhere. They contain no user
+identifiers, file names or asset identifiers. Crash reports, if you have enabled them in iOS
+settings, are collected by Apple under Apple's rules — we receive only anonymised statistics
+from Apple.</p>
+
+<h2>7. Sharing with third parties</h2>
+<p>We share and sell no data, because there is none to share. The app contains no third-party
+SDKs, ad networks or trackers. There is no cross-app tracking (App Tracking Transparency).</p>
+
+<h2>8. Children</h2>
+<p>The app is not directed at children and collects no data about anyone, including children
+under 13.</p>
+
+<h2>9. Your rights</h2>
+<p>Since no personal data is collected or held by the developer, there is nothing for us to give
+you access to, correct or delete. All of the app's data stays under your control on the device
+and is removed together with the app.</p>
+
+<h2>10. Changes</h2>
+<p>If this policy changes, the new version will be published on this page with a new date.</p>
+
+<h2>11. Contact</h2>
+<p><a href="mailto:{SUPPORT_EMAIL}">{SUPPORT_EMAIL}</a></p>
+
+<footer><p class="muted">© 2026 {DEVELOPER_NAME} · <a href="support.html">Support</a></p></footer>
+</div>
+</body>
+</html>
